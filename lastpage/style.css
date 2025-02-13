@@ -204,6 +204,14 @@ html, body {
         width: 45vw;
         height: 45vw;
     }
+    #n1 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        text-align: center;
+        width: 100vw;
+
+    }
 }
 
 .dp3c img, .dp4c img, .dp5c img, .dp6c img, .dp7c img, .dp8c img, .dp9c img, .dp10c img {
@@ -237,6 +245,14 @@ html, body {
     .dp3c img, .dp4c img, .dp5c img, .dp6c img, .dp7c img, .dp8c img, .dp9c img, .dp10c img {
         width: 100%;
         height: 100%;
+    }
+
+    .contact{
+        position: absolute;
+        box-align: center;
+        bottom: 80px;
+        text-align: center;
+        
     }
 }
 
