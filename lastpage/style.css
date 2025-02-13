@@ -194,6 +194,11 @@ html, body {
     border-radius: 30px;
 }
 
+.dp3c:hover, .dp4c:hover, .dp5c:hover, .dp6c:hover, .dp7c:hover, .dp8c:hover, .dp9c:hover, .dp10c:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
 @media (max-width: 768px) {
     .dp3c, .dp4c, .dp5c, .dp6c, .dp7c, .dp8c, .dp9c, .dp10c {
         width: 45vw;

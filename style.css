@@ -201,6 +201,11 @@ html, body {
     }
 }
 
+.dp3c:hover, .dp4c:hover, .dp5c:hover, .dp6c:hover, .dp7c:hover, .dp8c:hover, .dp9c:hover, .dp10c:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
 .dp3c img, .dp4c img, .dp5c img, .dp6c img, .dp7c img, .dp8c img, .dp9c img, .dp10c img {
     width: 100%;
     height: 100%;
