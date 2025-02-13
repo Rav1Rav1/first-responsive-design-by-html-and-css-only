@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+   background-image: url("https://t3.ftcdn.net/jpg/01/02/64/28/360_F_102642850_Mca9lTRDH60DQin39YwCF5Jzd15lcdoo.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.parent1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+
+#c1{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(154, 231, 246),rgb(234, 244, 248));
+}
+
+#i1{
+
+    position: absolute;
+    left: 160px;
+    top: 20px;
+
+}
+
+#emailid1{
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+#p1{
+    font-size: 30px;
+    font-weight: 100px;
+    position: absolute;
+    top: 80px;
+    left: 85px;
+}
+
+#p2{
+    font-size: 15px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 55px;
+    text-align: center;
+    color: rgb(106, 99, 99);
+}
+
+#i2{
+    width: 25px;
+    position: absolute;
+    left: 55px;
+    top: 205px;
+}
+
+#pass{
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#i3{
+    width: 25px;
+    position: absolute;
+    left: 55px;
+    top: 252px;
+    z-index: 4;
+
+}
+
+#p3{
+    position: absolute;
+    top: 285px;
+    left: 230px;
+}
+#cc1{
+    border: 2px solid white;
+    background-color: rgb(23, 14, 14);
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 75px;
+    position: absolute;
+    top: 330px;
+    left: 79px;
+}
+
+#p4{
+    position: absolute;
+    top: 380px;
+    left: 125px;
+
+}
+
+#a1{
+    color: black;
+    text-decoration: none;
+}
+#a2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
