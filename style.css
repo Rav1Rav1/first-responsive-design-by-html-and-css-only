@@ -67,6 +67,8 @@ html, body {
     #dp1c1, #dp1c3 {
         justify-content: center;
     }
+
+    
     
     #dp1c2 {
         font-size: 18px;
@@ -103,7 +105,6 @@ html, body {
     justify-content: center;
     text-align: center;
     position: relative;
-    /* flex-shrink: 3; */
 }
 
 #im5 {
@@ -196,16 +197,79 @@ html, body {
     overflow: hidden; 
 }
 
+.dp3-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+}
 
-
-.dp3, .dp4, .dp5, .dp6, .dp7, .dp8, .dp9, .dp10 {
+.dp3 ,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2px;
+    justify-content: space-around;
+    gap: 10px;
     padding: 10px;
     margin-bottom: 30px;
-   
+    position: relative;
+}
+
+.dp3c,.dp4c,.dp5c,.dp6c,.dp7c,.dp8c,.dp9c,.dp10c{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.subdiv {
+    width: 100%;
+    max-width: 300px;
+    height: 60px;
+    background-color: rgb(247, 255, 99);
+    position: absolute;
+    bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .dp3 ,.dp4,.dp5,.dp6,.dp7,.dp8,.dp9,.dp10{
+        gap: 5px;
+    }
+    .dp3c,.dp4c,.dp5c,.dp6c,.dp7c,.dp8c,.dp9c,.dp10c{
+        max-width: 45%;
+    }
+    .subdiv {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dp3c,.dp4c,.dp5c,.dp6c,.dp7c,.dp8c,.dp9c,.dp10c{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .subdiv {
+        font-size: 16px;
+        height: 50px;
+    }
 }
 
 .dp3 img, .dp4 img, .dp5 img, .dp6 img, .dp7 img, .dp8 img, .dp9 img, .dp10 img {
@@ -229,6 +293,8 @@ html, body {
         width: 45vw;
         height: 45vw;
     }
+
+
 }
 
 .dp3c:hover, .dp4c:hover, .dp5c:hover, .dp6c:hover, .dp7c:hover, .dp8c:hover, .dp9c:hover, .dp10c:hover {
@@ -278,6 +344,26 @@ html, body {
         width: 90vw;
         height: 90vw;
     }
+
+    .dpp3{
+        position: relative;
+    }
+
+    .dp31c, .dp32c {
+        width: 24vw;
+        height: 4vw;
+        background-color: #0300c5;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+   
 
     .mp {
         display: flex;
@@ -425,130 +511,3 @@ html, body {
     font-size: 16px;
 }
 
-
-/* .dp31c{
-    width: 20vw;
-    height: 4vw;
-    background-color: #000000;
-    border-radius: 20px;
-    position: relative;
-}
-
-#dp31ch1{
-    position: absolute;
-    left: 1170px;
-    top: 1500px;
-} 
-
-#dp31ch2{
-    position: absolute;
-    left: 800px;
-    top: 1500px;
-} 
-
-#dp31ch3{
-    position: absolute;
-    left: 420px;
-   top: 1500px;
-} 
-#dp31ch4{
-    position: absolute;
-    left: 45px;
-    top: 1500px;
-}  */
-
-
-
-/* .dp41c{
-    width: 20vw;
-    height: 4vw;
-    background-color: #000000;
-    border-radius: 20px;
-    position: relative;
-}
-
-#dp41ch1{
-    position: absolute;
-    left: 1170px;
-    top: 1920px;
-} 
-
-#dp41ch2{
-    position: absolute;
-    left: 800px;
-    top: 1920px;
-} 
-
-#dp41ch3{
-    position: absolute;
-    left: 420px;
-    top: 1920px;
-} 
-#dp41ch4{
-    position: absolute;
-    left: 45px;
-    top: 1920px;
-} 
-
-.dp51c{
-    width: 20vw;
-    height: 4vw;
-    background-color: #000000;
-    border-radius: 20px;
-    position: relative;
-}
-
-#dp51ch1{
-    position: absolute;
-    left: 1170px;
-    top: 2335px;
-} 
-
-#dp51ch2{
-    position: absolute;
-    left: 800px;
-    top: 2335px;
-} 
-
-#dp51ch3{
-    position: absolute;
-    left: 420px;
-    top: 2335px;
-} 
-#dp51ch4{
-    position: absolute;
-    left: 45px;
-    top: 2335px;
-} 
-
-.dp61c{
-    width: 20vw;
-    height: 4vw;
-    background-color: #000000;
-    border-radius: 20px;
-    position: relative;
-}
-
-#dp61ch1{
-    position: absolute;
-    left: 1170px;
-    top: 2750px;
-} 
-
-#dp61ch2{
-    position: absolute;
-    left: 800px;
-    top: 2750px;
-} 
-
-#dp61ch3{
-    position: absolute;
-    left: 420px;
-    top: 2750px;
-} 
-#dp61ch4{
-    position: absolute;
-    left: 45px;
-    top: 2750px;
-} 
- */
